@@ -1,4 +1,4 @@
-class Node{
+ class Node{
     int key;
     Node left,right;
 
@@ -6,7 +6,7 @@ Node(int value){
     key = value;
     left=right=null;
 }}
-public class preorederTree{
+public class preorderTree{
     public static void preorder(Node root){
         if(root==null){
             return;
